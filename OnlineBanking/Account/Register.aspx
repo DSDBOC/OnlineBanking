@@ -10,6 +10,32 @@
         <hr />
         <asp:ValidationSummary runat="server" CssClass="text-danger" />
         <div class="row">
+            <asp:Label runat="server" AssociatedControlID="FirstName" CssClass="col-md-2 col-form-label">FirstName</asp:Label>
+            <div class="col-md-10">
+                <asp:TextBox runat="server" ID="FirstName" CssClass="form-control" />
+                <asp:RequiredFieldValidator runat="server" ControlToValidate="FirstName"
+                CssClass="text-danger" ErrorMessage="The First Name is required." />
+            </div>
+            </div>
+
+            <div class="row">
+            <asp:Label runat="server" AssociatedControlID="LastName" CssClass="col-md-2 col-form-label">LastName</asp:Label>
+            <div class="col-md-10">
+                <asp:TextBox runat="server" ID="LastName" CssClass="form-control" />
+                <asp:RequiredFieldValidator runat="server" ControlToValidate="LastName"
+                CssClass="text-danger" ErrorMessage="The Last Name is required." />
+            </div>
+            </div>
+
+        <div class="row">
+            <asp:Label runat="server" AssociatedControlID="UserName" CssClass="col-md-2 col-form-label">UserName</asp:Label>
+            <div class="col-md-10">
+                <asp:TextBox runat="server" ID="UserName" CssClass="form-control" />
+                <asp:RequiredFieldValidator runat="server" ControlToValidate="UserName"
+                CssClass="text-danger" ErrorMessage="The User Name is required." />
+            </div>
+            </div>
+        <div class="row">
             <asp:Label runat="server" AssociatedControlID="Email" CssClass="col-md-2 col-form-label">Email</asp:Label>
             <div class="col-md-10">
                 <asp:TextBox runat="server" ID="Email" CssClass="form-control" TextMode="Email" />
