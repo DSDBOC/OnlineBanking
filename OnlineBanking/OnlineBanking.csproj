@@ -187,8 +187,6 @@
     <Content Include="Error.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="Itaworksade.aspx" />
-    <Content Include="Normal.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -421,21 +419,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Itaworksade.aspx.cs">
-      <DependentUpon>Itaworksade.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Itaworksade.aspx.designer.cs">
-      <DependentUpon>Itaworksade.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Normal.aspx.cs">
-      <DependentUpon>Normal.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Normal.aspx.designer.cs">
-      <DependentUpon>Normal.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
